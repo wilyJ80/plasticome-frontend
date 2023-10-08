@@ -99,3 +99,48 @@
 .btn:hover{
     opacity: 1;
 }
+
+#footer {
+    text-align: center;
+    display: flex;
+    color: var(--primary);
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin: .5em;
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin: .5em;
+}
+
+#footer span {
+    font-weight: bolder;
+}
+
+
+/* Mobile */
+@media (max-width: 450px){
+    #main-description{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #inform{
+        padding: 2em;
+    }
+
+    #inform h2{
+        margin-bottom: .5em;
+    }
+
+    #analyze-form {
+        max-width: 75%;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+}
