@@ -39,8 +39,12 @@
             </div>
             <div class="form-group">
                 <label for="fungi">Nome da espécie a ser analisada</label>
-                <input type="text" name="fungi_id" placeholder="Qual a espécie do fungo?" id="">
+                <input list="fungi-options" type="text" name="fungi_id" placeholder="Qual a espécie do fungo?" id="search-box">
+                <datalist id="fungi-options">
+                    <!-- Aqui vão as opções de sugestão -->
+                </datalist>
             </div>
+
             <input class="btn" type="button" value="Enviar">
         </form>
     </div>
