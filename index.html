@@ -16,17 +16,17 @@
 <body>
 <header id="main-description">
     <div id="inform">
-        <h2>Welcome to Plasticome!</h2>
+        <h2>Bem vindo ao Plasticome!</h2>
         <p class="mini-bio">
             Desenvolvida para a análise e exploração de genomas de fungos com foco na identificação de genes relacionados à degradação de plásticos. Com base em técnicas avançadas de bioinformática, a Plasticome permite aos pesquisadores e cientistas investigar a capacidade dos fungos de decompor resíduos plásticos, um problema ambiental cada vez mais premente.
         </p>
         <p class="mainteiner">
-            By G2BC
+            por G2BC
         </p>
 
     </div>
     <div id="analyze-form">
-        <p>Para iniciar a análise de um genoma preecha as informações abaixo!</p>
+        <p>Para iniciar a análise do genoma preecha as informações abaixo!</p>
         <i class="bi bi-github"></i>
         <form action="analyze" method="post">
             <div class="form-group">
@@ -38,7 +38,7 @@
                 <input type="email" name="user_email" placeholder="Qual o seu melhor email?" id="">
             </div>
             <div class="form-group">
-                <label for="fungi">Nome da espécie a ser analisada</label>
+                <label for="fungi">Identificador do genbank da espécie a ser analisada</label>
                 <input list="fungi-options" type="text" name="fungi_id" placeholder="Qual a espécie do fungo?" id="search-box">
                 <datalist id="fungi-options">
                     <!-- Aqui vão as opções de sugestão -->
@@ -88,7 +88,7 @@ form.querySelector('.btn').addEventListener('click', function(event) {
     .then(data => {
         // Manipule a resposta da API aqui (por exemplo, exiba uma mensagem de sucesso)
         console.log(data);
-        alert('Formulário enviado com sucesso!');
+        alert('ROLOUUUUU', data);
     })
     .catch((error) => {
         // Manipule erros (por exemplo, exiba uma mensagem de erro)
