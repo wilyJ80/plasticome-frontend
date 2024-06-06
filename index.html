@@ -58,26 +58,21 @@
     const form = document.querySelector('form')
 
 console.log(form)
-// Adicione um ouvinte de evento 'click' ao botão de enviar
 form.querySelector('.btn').addEventListener('click', function(event) {
-    // Previna o comportamento padrão do botão
     event.preventDefault();
 
-    // Verifique se os campos obrigatórios estão preenchidos
     if (!form.user_name.value || !form.user_email.value || !form.fungi_id.value) {
         alert('Por favor, preencha todos os campos obrigatórios.');
         return;
     }
 
-    // Crie um objeto JSON com os valores dos campos do formulário
     let jsonObject = {
         "user_name": form.user_name.value,
         "user_email": form.user_email.value,
         "fungi_id": form.fungi_id.value
     };
 
-    // Envie os dados do formulário para a API usando fetch
-    fetch('http://127.0.0.1:5000/analyze', {  // Corrija o erro no URL aqui
+    fetch('http://127.0.0.1:5000/analyze', { 
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -86,12 +81,10 @@ form.querySelector('.btn').addEventListener('click', function(event) {
     })
     .then(response => response.json())
     .then(data => {
-        // Manipule a resposta da API aqui (por exemplo, exiba uma mensagem de sucesso)
         console.log(data);
         alert('ROLOUUUUU', data);
     })
     .catch((error) => {
-        // Manipule erros (por exemplo, exiba uma mensagem de erro)
         console.error('Error:', error);
         alert('Ocorreu um erro ao enviar o formulário.');
     });
