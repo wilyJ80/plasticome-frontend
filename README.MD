@@ -10,8 +10,9 @@ Eu sei, eu sei esse projeto é bem simples, front não é meu forte, e eu acho q
 2. Altere a url `http://localhost/analyze` no arquivo na parte do script no arquivo [`index.html`](./index.html) ou [`script.js`](./scripts.js), pela sua:
     > ex: `https://plasticome-backend/analyze`
 <!-- 3. Como ele está bem simples, é só abrir o html no navegador -->
-3. Compile o css: `npm run build-css`
-4. Abra no navegador!
+3. Instale as dependências com 'npm install'
+4. Compile o css: `npm run build-css`
+5. Abra no navegador!
 
 ## 🔍Coisas para adicionar
  - [ ] Criar campo que mostre a disponibilidade do servidor
