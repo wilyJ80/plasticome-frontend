@@ -19,3 +19,8 @@ Eu sei, eu sei esse projeto é bem simples, front não é meu forte, e eu acho q
  - [ ] Criar campo que mostre quantos serviços já foram executados
  - [ ] Criar tela de gráficos para análises realizadas
  - [ ] Começar a aceitar arquivos fasta
+
+## Precisa adicionar primeiro...
+ - [ ] JavaScript
+ - [ ] Funcionalidades básicas de integração
+ - [ ] Contato e Sobre
