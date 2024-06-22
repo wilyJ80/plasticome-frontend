@@ -1,0 +1,26 @@
+{
+  "name": "plasticome-frontend",
+  "version": "1.0.0",
+  "description": "Fungi app frontend",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilyJ80/plasticome-frontend.git"
+  },
+  "keywords": [
+    "fungi",
+    "bioinformatics"
+  ],
+  "author": [
+    "Evelyn Souza (github:blueevee)",
+    "Victor Hugo Bitencourt (github:wilyJ80)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilyJ80/plasticome-frontend/issues"
+  },
+  "homepage": "https://github.com/wilyJ80/plasticome-frontend#readme"
+}
