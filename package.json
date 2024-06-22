@@ -4,7 +4,8 @@
   "description": "Fungi app frontend",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "npx tailwindcss -i ./css/input.css -o ./css/compiled.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/wilyJ80/plasticome-frontend/issues"
   },
-  "homepage": "https://github.com/wilyJ80/plasticome-frontend#readme"
+  "homepage": "https://github.com/wilyJ80/plasticome-frontend#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
