@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="css/compiled.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="navbar bg-base-100">
+		<a class="btn btn-ghost text-xl">Plasticome</a>
+	</div>
+
+	<div class="flex flex-col w-full lg:flex-row">
+		<div class="hero min-h-screen bg-base-200">
+			<div class="hero-content text-center">
+				<div class="max-w-md">
+					<h1 class="text-5xl font-bold">Plasticome</h1>
+					<p class="py-6">Desenvolvida para a análise e exploração de genomas de fungos com foco na
+						identificação
+						de genes relacionados à degradação de plásticos. Com base em técnicas avançadas de
+						bioinformática, a
+						Plasticome permite aos pesquisadores e cientistas investigar a capacidade dos fungos de decompor
+						resíduos plásticos, um problema ambiental cada vez mais premente.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="divider lg:divider-horizontal"></div>
+		<div class="hero min-h-screen bg-base-200">
+			<div class="hero-content flex-col lg:flex-row-reverse">
+				<div class="text-center lg:text-left">
+					<h1 class="text-5xl font-bold">Comece agora!</h1>
+					<p class="py-6">Preencha as informações abaixo para iniciar a análise!</p>
+				</div>
+				<div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+					<form class="card-body">
+						<div class="form-control">
+							<label class="label">
+								<span class="label-text">Nome</span>
+							</label>
+							<input type="text" placeholder="Como posso te chamar?" class="input input-bordered"
+								required />
+						</div>
+						<div class="form-control">
+							<label class="label">
+								<span class="label-text">Email</span>
+							</label>
+							<input type="email" placeholder="Qual o seu melhor email?" class="input input-bordered"
+								required />
+						</div>
+						<div class="form-control">
+							<label class="label">
+								<span class="label-text">Identificador do genbank da espécie a ser analisada</span>
+							</label>
+							<input type="text" placeholder="Qual a espécie do fungo?" class="input input-bordered"
+								required />
+						</div>
+						<div class="form-control mt-6">
+							<button class="btn btn-primary">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
